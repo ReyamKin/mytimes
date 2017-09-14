@@ -1,0 +1,25 @@
+body {
+}
+
+div {
+  border: 1px solid;
+}
+
+nav {
+  display: inline-block;
+}
+
+.header {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.container {
+  display: flex;
+}
+
+.container p {
+  color: mediumAquamarine;
+}

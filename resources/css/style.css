@@ -1,25 +1,47 @@
-body {
+
+html, body {
+  margin: 1;
+  padding: 0;
 }
 
 div {
-  border: 1px solid;
+  border: 1px solid black;
 }
 
-nav {
-  display: inline-block;
-}
+/* Header properties */
 
 .header {
-  font-family: verdana;
+  display: inline-flex;
+  font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
+  width: 70%;
+  padding: 0px 0px 12px 0px;
+  flex-wrap: wrap;
 }
 
-.container {
-  display: flex;
+.header span {
+  padding: 20px 0px 10px 10px;
+  color: MediumAquamarine;
 }
 
-.container p {
-  color: mediumAquamarine;
+/* Nav properties */
+
+ul {
+  display: inline-flex;
+  justify-content: flex-end;
+  border: 1px solid red;
+  height: 60%;
+  width: 26%;
+  padding: 36px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+
+ul span {
+  margin: 0;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  justify-content: center;
 }

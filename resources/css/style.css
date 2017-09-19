@@ -45,3 +45,33 @@ ul span {
   padding: 10px;
   justify-content: center;
 }
+
+/* Main body */
+.column1 {
+  margin: 0;
+  width: 630px;
+}
+
+.column2 {
+  margin: 0;
+  width: 300px;
+}
+
+.column3 {
+  margin: 0;
+  width: 240px;
+}
+
+.mainbody {
+  display: inline-flex;
+  background-color: lightgray;
+  width: 1225px;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+.main {
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+}

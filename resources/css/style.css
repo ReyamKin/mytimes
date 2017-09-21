@@ -48,8 +48,48 @@ ul span {
 
 /* Main body */
 .column1 {
+  display: flex;
   margin: 0;
   width: 630px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#title1 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 629px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#title2 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+  width: 629px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#title3 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  width: 629px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .column2 {
@@ -68,10 +108,11 @@ ul span {
   width: 1225px;
   align-items: flex-start;
   padding-top: 30px;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .main {
-  background-color: lightyellow;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
